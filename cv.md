@@ -27,6 +27,7 @@ Hope my love to learnlearning will help me to develop needed skills and become a
 * JavaScript Basics
 * Git, GitHub
 * VS Code
+
 ***********
 
 ## **Code example:**
@@ -68,12 +69,16 @@ int main(void)
 }
 
 ```
+
 **********
+
 ## **Courses:**
 * Introduction to Front-End Development by Meta on Coursera.org (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 * CS50’s Introduction to Computer Science from Harvard (in progress)
+
 *************
+
 ## **Languages:**
 * English – B2
 * Russian - Native
