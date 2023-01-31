@@ -1,6 +1,9 @@
 # **Viktoriya Lubenets**
+
 ## **Junior Frontend Developer**
+
 *********
+
 ## **Contact information:**
 
 **Phone:** +995 599 72 96 13
@@ -10,7 +13,9 @@
 **Telegram:** @vikalubenets
 
 [LinkedIn](https://www.linkedin.com/in/viktoriya-lubenets-1900a325b/)
+
 **************
+
 ## **Briefly About Myself:**
 
 Working 5 years as an international project lawyer, I realized that my big passion is to affect on the result of the project instead of doing documentation to formalize it.
@@ -22,6 +27,7 @@ Surprisingly for myself I found out a lot of common features between front-end d
 Hope my love to learnlearning will help me to develop needed skills and become a proficient Frontend Developer.
 
 ************
+
 ## **Skills and Proficiency:**
 * HTML5, CSS3
 * JavaScript Basics
