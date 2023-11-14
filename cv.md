@@ -1,6 +1,6 @@
 # **Viktoriya Lubenets**
 
-## **Junior Frontend Developer**
+## **Frontend Developer**
 
 *********
 
@@ -16,78 +16,79 @@
 
 **************
 
-## **Briefly About Myself:**
+## **Briefly About Me:**
 
-Working 5 years as an international project lawyer, I realized that my big passion is to affect on the result of the project instead of doing documentation to formalize it.
+After working as an international project lawyer for 5 years, I realized that my true passion lies in influencing the outcome of a project rather than just documenting it formally.
 
-Considering this, I'd decided to test different fields of IT work and chose front-end development as the most interesting and visual job providing endless possibilities for professional growth, using free high-quality resources for self-education.
+With this realization, I decided to explore various IT fields and ultimately chose front-end development as the most captivating career, offering limitless opportunities for professional growth and leveraging high-quality, free resources for self-education.
 
-Surprisingly for myself I found out a lot of common features between front-end development and being a lawyer, including the necessity of long learning, being patient to details, logic and high quality of written work.
-
-Hope my love to learnlearning will help me to develop needed skills and become a proficient Frontend Developer.
+To my surprise, I discovered many commonalities between front-end development and my legal background. Both require continuous learning, attention to detail, logical thinking, and a commitment to delivering high-quality work.
 
 ************
 
 ## **Skills and Proficiency:**
-* HTML5, CSS3
-* JavaScript Basics
+* HTML5, CSS3, SASS, Tailwind
+* JavaScript
+* Typescript
+* React
+* REST-API
 * Git, GitHub
+* Webpack, Husky, Prettier, Eslint, Vite
+* Jest
 * VS Code
+* SCRUM and Agile Methodology
 
 ***********
 
 ## **Code example:**
-**Lab 1 “Population” from CS50 course:** 
+**React project** 
 
-Say we have a population of n llamas. Each year, n / 3 new llamas are born, and n / 4 llamas pass away. Complete the implementation of population.c, such that it calculates the number of years required for the population to grow from the start size (not less than 9) to the end size (determined by user). 
+Several components from last project in react from [this repo](https://github.com/VikaLubenets/React)
 
 ```
-#include <cs50.h>
-#include <stdio.h>
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <ErrorBoundary fallback={<ErrorMessage />}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ErrorBoundary>
+  </React.StrictMode>
+);
 
-int main(void)
-{
-    // TODO: Prompt for start size
-    int i;
-    do
-    {
-        i = get_int("Start population: \n");
-    }
-    while (i < 9);
-
-    // TODO: Prompt for end size
-    int j;
-    do
-    {
-        j = get_int("End population: \n");
-    }
-    while (j < i);
-
-    // TODO: Calculate number of years until we reach threshold
-    int years = 0;
-    while (i < j)
-    {
-        i = i + (i / 3) - (i / 4);
-        years++;
-    }
-    // TODO: Print number of years
-    printf("Years: %d\n", years);
+export default function App() {
+  return (
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<HomePage />}>
+          <Route path="details/:id" element={<Details />} />
+        </Route>
+        <Route path="*" element={<Page404 />} />
+      </Routes>
+    </div>
+  );
 }
 
 ```
 
 **********
 
+## **Experience:**
+You can find details about all my projects, including descriptions, technical skills, and deployments, through [this link](https://github.com/VikaLubenets/frontend-projects)
+
+
 ## **Courses:**
-* Introduction to Front-End Development by Meta on Coursera.org (in progress)
-* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* RS Schools Course «JavaScript/Front-end» ([certificate](https://app.rs.school/certificate/t0bwelq3))
+* RS Schools Course «AWS Cloud Developer», Oct 2023 (in progress)
+* RS Schools Course «React 2023 Q4» (in progress)
+* Meta Front-End Developer Professional Certificate (in progress)
 * CS50’s Introduction to Computer Science from Harvard (in progress)
 
 *************
 
 ## **Languages:**
-* English – B2
+* English – C1 (2018-2022 worked as project international lawyer in international team, incl. US, China, India, UK, Cyprus etc.)
 * Russian - Native
-* Spanish – A1
+* Spanish – B1
 
 
